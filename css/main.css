@@ -45,3 +45,34 @@
   }
     
 }
+.footer-item a ,address,h4 {
+ color: #8A8FB9;
+}
+
+.footer-item{
+ background-color: #EEEFFB;
+ padding: 50px 0px;
+}
+.row .left-side  input{
+    padding-left: 6px;
+    border: none;
+    outline: none;
+}
+.row .left-side  form{
+    border: 1px solid #E7E6EF;
+    border-radius:6px;
+}
+.left-side button{
+ border:none;
+    border:none;
+     background-color: var(--main-color);
+    padding: 8px 13px;
+    color: white;
+}
+.right-side{
+    width: 60%;
+}
+.left-side{
+    align-items: flex-start;
+
+}

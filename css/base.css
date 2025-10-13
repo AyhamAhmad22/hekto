@@ -13,4 +13,25 @@
     width: 80%;
     margin: auto;
 }
-
+.d-flex{
+    display: flex;
+}
+.flex-direction{
+   
+    flex-direction: column;
+}
+.gap-1{
+  gap :10px;
+}
+.gap-2{
+  gap:15px;
+}
+.gap-3{
+  gap:20px;
+}
+.gap-4{
+    gap:25px;
+}
+.gap-5{
+    gap:30px;
+}
