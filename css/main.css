@@ -104,6 +104,24 @@
   background-repeat: no-repeat; 
   height: 400px;               
 }
+.FeaturedProducts .Product .image{
+ background-color: #F6F7FB;
+ width:200px;
+height: 200px;
+}
+.FeaturedProducts h2 {
+  color: #1A0B5B;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.FeaturedProducts{
+    padding: 50px 0;
+}
+.FeaturedProducts .Product{
+    box-shadow: 0px 4px 4px #00000040;
+    flex: 1 0 300px;
+   
+}
 
 
 
