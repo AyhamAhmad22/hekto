@@ -76,3 +76,35 @@
     align-items: flex-start;
 
 }
+
+
+@media screen and(max-width :992px){
+.footer-item{
+    width: 100%;
+}
+
+}
+.client.c-imge{
+    width: calc((100%-75px)/6);
+}
+.client.row{
+     flex-wrap: wrap ;
+     overflow-x: auto;
+}
+@media screen and(max-width : 900px) {
+    .client .c-imge{
+    width : calc((100%-20px)/ 3 )
+    }
+    
+}
+.newslatter {
+  background-image: url('../image/back.png');
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 400px;               
+}
+
+
+
+
