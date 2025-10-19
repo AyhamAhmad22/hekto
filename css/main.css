@@ -43,8 +43,10 @@
   .bar{
     display: block;
   }
-    
+
+
 }
+
 .footer-item a ,address,h4 {
  color: #8A8FB9;
 }
@@ -104,24 +106,99 @@
   background-repeat: no-repeat; 
   height: 400px;               
 }
-.FeaturedProducts .Product .image{
- background-color: #F6F7FB;
- width:200px;
-height: 200px;
+.FeaturedProducts {
+  padding: 80px 0;
+  background-color: #fff;
 }
+
 .FeaturedProducts h2 {
   color: #1A0B5B;
-  text-align: center;
-  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
-.FeaturedProducts{
-    padding: 50px 0;
+
+.FeaturedProducts .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
 }
-.FeaturedProducts .Product{
-    box-shadow: 0px 4px 4px #00000040;
-    flex: 1 0 300px;
-   
+
+.FeaturedProducts .Product {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 250px;
+  position: relative;
+  transition: all 0.3s ease;
 }
+
+.FeaturedProducts .Product:hover {
+  transform: translateY(-8px);
+}
+
+.FeaturedProducts .Product .image {
+  background-color: #F6F7FB;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.FeaturedProducts .Product .image img {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.FeaturedProducts .details {
+  padding: 15px;
+}
+
+.FeaturedProducts .title {
+  color: #FB2E86;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.FeaturedProducts .code {
+  color: #1A0B5B;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.FeaturedProducts .price {
+  color: #1A0B5B;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.FeaturedProducts .view-btn {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 100%;
+  background-color: #08D15F;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+/* Show button on hover */
+.FeaturedProducts .Product:hover .view-btn {
+  bottom: 0;
+  opacity: 1;
+}
+
 
 
 
